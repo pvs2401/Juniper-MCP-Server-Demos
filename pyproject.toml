@@ -1,0 +1,18 @@
+[project]
+name = "apstra"
+version = "0.1.0"
+description = "MCP server for Apstra network management"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp",
+    "requests",
+    "urllib3",
+]
+
+[project.scripts]
+apstra = "apstra.server:cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
