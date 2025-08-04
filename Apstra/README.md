@@ -35,9 +35,9 @@ uv --version
 
 ### 1. Clone and Setup
 ```bash
-# Clone the repository (replace with your actual repo URL)
-git clone <your-repo-url>
-cd ApstraDemoMCP/Apstra
+# Clone the repository
+git clone https://github.com/pvs2401/Juniper-MCP-Server-Demos.git
+cd Juniper-MCP-Server-Demos/Apstra/Apstra
 
 # Install dependencies
 uv sync
@@ -89,8 +89,8 @@ Create or edit the `claude_desktop_config.json` file:
 **⚠️ Important**: Replace `/FULL/PATH/TO/YOUR/Apstra` with the complete path to your Apstra directory.
 
 #### Example Paths:
-- **macOS**: `/Users/johndoe/ApstraDemoMCP/Apstra`
-- **Windows**: `C:\Users\johndoe\ApstraDemoMCP\Apstra`
+- **macOS**: `/Users/johndoe/Juniper-MCP-Server-Demos/Apstra/Apstra`
+- **Windows**: `C:\Users\johndoe\Juniper-MCP-Server-Demos\Apstra\Apstra`
 
 ### 5. Restart Claude Desktop
 1. Completely quit Claude Desktop
