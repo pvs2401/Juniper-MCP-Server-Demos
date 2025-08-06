@@ -196,6 +196,7 @@ Add a section with actionable items:
 - ⚠️ Investigate configuration mismatches immediately
 - 🔧 Review error messages for failed deployments
 - 📊 Monitor deployment status trends
+- 🔍 **CONFIG DEVIATION ANALYSIS:** When configuration mismatches are detected on any device, immediately use the `get_blueprint_anomalies` tool to retrieve the detailed configuration drift (diff between actual and expected config) for those specific devices
 
 **STRUCTURE EXAMPLE:**
 ```
